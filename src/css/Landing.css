@@ -1,16 +1,16 @@
-.profile-pic {
+.Landing .profile-pic {
 	border-radius: 100px;
 	height: 200px;
 }
 
-.quote {
+.Landing .quote {
 	font-size: 1.15rem;
 	font-style: italic;
 	text-align: center;
 	margin-top: 40px;
 }
 
-.quote-author {
+.Landing .quote-author {
 	font-size: 0.8rem;
 	text-align: right;
 	margin-right: 15%;
