@@ -6,9 +6,6 @@ export default function BlockFade({ children, index }) {
 		animationDelay: `${Math.max(0, index ?? 0) / 2}s`,
 	};
 
-	console.log(style);
-
-
 	return (
 		<section className='BlockFade' style={style}>{children}</section>
 	);

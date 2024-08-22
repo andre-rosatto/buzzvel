@@ -1,3 +1,9 @@
+.quote {
+	font-style: italic;
+}
+
+
+/* carousel config */
 .About .carousel-wrapper {
 	height: 340px;
 }
@@ -29,8 +35,8 @@
 }
 
 .About .carousel-wrapper .pip {
-	width: 15px;
-	height: 15px;
+	width: 10px;
+	height: 10px;
 	background-color: var(--bg-color-secondary);
 	border-radius: 100%;
 	cursor: pointer;
@@ -41,6 +47,8 @@
 .About .carousel-wrapper .Carousel__current-pip .pip {
 	background-color: var(--text-highlight);
 }
+
+/* carousel cards */
 
 .About .carousel-card {
 	width: 300px;

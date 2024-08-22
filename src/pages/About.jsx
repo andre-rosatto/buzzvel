@@ -44,10 +44,25 @@ export default function About() {
 							<div className='carousel-card col gap-sm center pad-sm'>
 								<img className='carousel-card-img' src="./assets/img/skills_icon.svg" alt="Skills" />
 								<h3 className="carousel-card-title">Skills</h3>
-								<p className="carousel-card-text line-height-sm">I am a native Portuguese speaker,and I speak English fluently. I can proficiently use several design tools such as Photoshop, Illustrator, Figma, and similar ones.</p>
+								<p className="carousel-card-text line-height-sm">I can proficiently use several design tools such as Photoshop, Illustrator, Figma, and similar ones.</p>
+							</div>
+							<div className='carousel-card col gap-sm center pad-sm'>
+								<img className='carousel-card-img' src="./assets/img/communication_icon.svg" alt="Communication" />
+								<h3 className="carousel-card-title">Communication</h3>
+								<p className="carousel-card-text line-height-sm">Working as an English teacher has helped me improve my English, but it has also taught me to better communicate and express myself.</p>
 							</div>
 						</Carousel>
 					</section>
+				</div>
+			</BlockFade>
+
+			<BlockFade
+				index={1}
+			>
+				<SlidingText ghostClass='ghost'>Why Buzzvel</SlidingText>
+				<div className="col gap-sm pad-left-md">
+					<p className='quote'>"Technology extends every day. For this reason, we at Buzzvel constantly seek to improve our knowledge."</p>
+					<p className='line-height-sm'>Buzzvel is a company that clearly understands that working in tech means to continuously improve and evolve. Learning new things is the greatest motivation anyone can have, and being part of a company that is committed to improvement and customer satisfaction makes everyone's world better.</p>
 				</div>
 			</BlockFade>
 		</main>

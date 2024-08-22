@@ -13,7 +13,7 @@ export default function Landing() {
 				</SlidingText>
 				<div className='col gap-sm pad-left-md'>
 					<p className='line-height-sm'>Welcome to my introduction website!</p>
-					<p className='line-height-sm'>My names is <span class='text-highlight'>André Rosatto</span>, and here you can learn a bit about me.</p>
+					<p className='line-height-sm'>My names is <span className='text-highlight'>André Rosatto</span>, and here you can learn a bit about me.</p>
 					<p className='line-height-sm'>My first contact with computer programming happened when I was about 10 years old, and my father bought our first computer &ndash; an MSX Hotbit HB-8000.</p>
 					<p className='line-height-sm'>Ever since, programming and web development have become more than just a job or a hobby for me &ndash; it has turned into a passion! For me, there is nothing more rewarding than bringing an abstract idea into life. Seeing on a screen what only existed in my mind feels like a real accomplishment.</p>
 				</div>
