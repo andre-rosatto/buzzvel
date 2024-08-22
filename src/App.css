@@ -1,8 +1,15 @@
+:root {
+	--bg-color: black;
+	--text-color: white;
+	--text-highlight: #18d341;
+	--ghost-color: #0a8825;
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	font-family: Arial, Helvetica, sans-serif;
-	color: white;
+	color: var(--text-color);
 }
 
 html {
@@ -52,4 +59,12 @@ main {
 
 .line-height-md {
 	line-height: 1.5rem;
+}
+
+.text-highlight {
+	color: var(--text-highlight);
+}
+
+.ghost {
+	color: var(--ghost-color);
 }

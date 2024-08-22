@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import '../css/SlidingText.css';
 
-export default function SlidingText({ children }) {
+export default function SlidingText({ children, ghostClass }) {
 	const ghost = useRef();
 	const [viewportY, setViewportY] = useState(window.innerHeight);
 
@@ -26,7 +26,7 @@ export default function SlidingText({ children }) {
 	return (
 		<div className="SlidingText">
 			<h2>{children}</h2>
-			<span className='text-ghost' style={getGhostStyle()} ref={ghost}>{children}</span>
+			<span className={`${ghostClass ?? ''}`} style={getGhostStyle()} ref={ghost}>{children}</span>
 		</div>
 	);
 }
