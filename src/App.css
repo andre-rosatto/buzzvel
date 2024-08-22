@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: Arial, Helvetica, sans-serif;
+	color: white;
 }
 
 html {
@@ -14,12 +15,37 @@ html {
 
 .col {
 	display: flex;
+	flex-direction: column;
 }
 
 .row {
 	display: flex;
 }
 
+.gap-sm {
+	gap: 15px;
+}
+
+.gap-lg {
+	gap: 50px;
+}
+
 .pad-lg {
 	padding: 50px;
+}
+
+.pad-left-md {
+	padding-left: 30px;
+}
+
+.pad-left-lg {
+	padding-left: 50px;
+}
+
+.line-height-sm {
+	line-height: 1.25rem;
+}
+
+.line-height-md {
+	line-height: 1.5rem;
 }
