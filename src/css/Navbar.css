@@ -16,15 +16,21 @@
 
 .Navbar ul li {
 	list-style: none;
-	padding: 10px;
-	box-sizing: border-box;
+	transform-origin: center;
+	transition: all 0.5s;
 }
 
-.Navbar ul li.selected {
-	border-bottom: 2px solid white;
+.Navbar ul li:hover {
+	transform: scale(1.1);
 }
 
 .Navbar ul li a {
 	text-decoration: none;
-	color: white;
+	color: var(--text-color);
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.Navbar ul li.selected a {
+	border-bottom: 2px solid var(--text-highlight);
 }
