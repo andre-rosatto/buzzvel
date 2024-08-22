@@ -7,10 +7,9 @@
 	position: absolute;
 	width: 64px;
 	height: 64px;
-	background-color: white;
-	border: none;
+	background-color: var(--bg-color-secondary);
+	border: 1px solid var(--text-color);
 	border-radius: 64px;
-	box-shadow: 0 6px 13px #5538EE42;
 	top: 110px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -32,18 +31,20 @@
 .About .carousel-wrapper .pip {
 	width: 15px;
 	height: 15px;
-	background-color: #CBCBCB;
+	background-color: var(--bg-color-secondary);
 	border-radius: 100%;
 	cursor: pointer;
-	margin-top: 56px;
+	border: 1px solid white;
+	margin-top: 10px;
 }
 
 .About .carousel-wrapper .Carousel__current-pip .pip {
-	background-color: #3634F7;
+	background-color: var(--text-highlight);
 }
 
 .About .carousel-card {
 	width: 300px;
+	height: 340px;
 	border-radius: 10px;
 	background-color: var(--bg-color-secondary);
 	box-sizing: border-box;

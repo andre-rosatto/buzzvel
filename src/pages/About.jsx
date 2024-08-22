@@ -39,7 +39,7 @@ export default function About() {
 							<div className='carousel-card col gap-sm center pad-sm'>
 								<img className='carousel-card-img' src="./assets/img/languages_icon.svg" alt="Programming Languages" />
 								<h3 className="carousel-card-title">Programming Languages</h3>
-								<p className="carousel-card-text line-height-sm">I have used and experimented with a wealth of programming languages, such as C#, Python,and PHP.</p>
+								<p className="carousel-card-text line-height-sm">I have used and experimented with a wealth of programming languages, such as C#, Python, and PHP.</p>
 							</div>
 							<div className='carousel-card col gap-sm center pad-sm'>
 								<img className='carousel-card-img' src="./assets/img/skills_icon.svg" alt="Skills" />

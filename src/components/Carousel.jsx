@@ -25,6 +25,8 @@ export default function Carousel({ children, itemWidth, gap, previousButton, nex
 	};
 
 	const startSwipe = e => {
+		console.log('startSwipe');
+
 		setIsSwipping(true);
 		setLastX(e.touches[0].clientX);
 	}
