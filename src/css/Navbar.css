@@ -1,0 +1,27 @@
+.Navbar {
+	background-color: #1a1a1a;
+	height: 75px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.Navbar ul {
+	display: flex;
+	gap: 75px;
+}
+
+.Navbar ul li {
+	list-style: none;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.Navbar ul li.selected {
+	border-bottom: 2px solid white;
+}
+
+.Navbar ul li a {
+	text-decoration: none;
+	color: white;
+}
