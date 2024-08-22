@@ -1,5 +1,5 @@
 .Navbar {
-	background-color: #1a1a1a;
+	background-color: var(--bg-color-secondary);
 	height: 75px;
 	display: flex;
 	justify-content: center;

@@ -1,5 +1,6 @@
 :root {
 	--bg-color: black;
+	--bg-color-secondary: #1a1a1a;
 	--text-color: white;
 	--text-highlight: #18d341;
 	--ghost-color: #0a8825;
@@ -33,12 +34,20 @@ main {
 	display: flex;
 }
 
+.center {
+	align-items: center;
+}
+
 .gap-sm {
 	gap: 15px;
 }
 
 .gap-lg {
 	gap: 50px;
+}
+
+.pad-sm {
+	padding: 10px;
 }
 
 .pad-lg {

@@ -1,0 +1,62 @@
+.About .carousel-wrapper {
+	height: 340px;
+}
+
+.About .carousel-wrapper .previousButton,
+.About .carousel-wrapper .nextButton {
+	position: absolute;
+	width: 64px;
+	height: 64px;
+	background-color: white;
+	border: none;
+	border-radius: 64px;
+	box-shadow: 0 6px 13px #5538EE42;
+	top: 110px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 21px;
+	cursor: pointer;
+	padding: 0;
+}
+
+.About .carousel-wrapper .previousButton {
+	background-image: url('../assets/img/icon-arrow-left.svg');
+	left: -32px;
+}
+
+.About .carousel-wrapper .nextButton {
+	background-image: url('../assets/img/icon-arrow-right.svg');
+	right: -32px;
+}
+
+.About .carousel-wrapper .pip {
+	width: 15px;
+	height: 15px;
+	background-color: #CBCBCB;
+	border-radius: 100%;
+	cursor: pointer;
+	margin-top: 56px;
+}
+
+.About .carousel-wrapper .Carousel__current-pip .pip {
+	background-color: #3634F7;
+}
+
+.About .carousel-card {
+	width: 300px;
+	border-radius: 10px;
+	background-color: var(--bg-color-secondary);
+	box-sizing: border-box;
+}
+
+.About .carousel-card-img {
+	height: 180px;
+}
+
+.About .carousel-card-title {
+	font-size: 1.1rem;
+}
+
+.About .carousel-card-text {
+	text-align: center;
+}
