@@ -8,13 +8,19 @@
 	font-size: 2rem;
 	font-weight: bold;
 	z-index: 1;
+	transition: all 0.75s ease-in-out;
+}
+
+.SlidingText h2:hover {
+	transform: translateX(2%);
 }
 
 .SlidingText .text-ghost {
 	position: absolute;
-	color: #721111;
+	color: #0a8825;
 	font-size: 3rem;
 	font-weight: bold;
 	top: -0.75rem;
 	z-index: 0;
+	text-wrap: nowrap;
 }

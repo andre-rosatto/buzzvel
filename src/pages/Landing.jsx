@@ -7,13 +7,14 @@ export default function Landing() {
 			<section>
 				<SlidingText>Welcome</SlidingText>
 				<div className='col gap-sm pad-left-md'>
-					<p className='line-height-sm'>Welcome to my introduction website! Here you can learn a bit about me, André Rosatto.</p>
+					<p className='line-height-sm'>Welcome to my introduction website!</p>
+					<p className='line-height-sm'>My names is André Rosatto, and here you can learn a bit about me.</p>
 					<p className='line-height-sm'>My first contact with computer programming happened when I was about 8 years old, and my father bought our first computer. Ever since, programming and web development have become more than a job or a hobby for me &ndash; it has turned into a passion! For me, there is nothing more rewarding than turning an abstract idea to life. Seeing on a screen what only existed in my mind feels like a real accomplishment.</p>
 				</div>
 			</section>
 			<section>
 				<SlidingText>Me, in a nutshell</SlidingText>
-				<div className="row gap-sm">
+				<div className="row gap-sm pad-left-md">
 					<img className='profile-pic' src="assets/img/profile_pic.webp" alt="Profile Picture" />
 					<div className='col gap-sm'>
 						<p>No one can be reduced to a few bullet points, but I will give it a try anyway:</p>
@@ -26,6 +27,8 @@ export default function Landing() {
 						</ul>
 					</div>
 				</div>
+				<p className='quote'>"The highest activity a human being can attain is learning for understanding,<br />because to understand is to be free."</p>
+				<p className='quote-author'>&ndash; Baruch Spinoza</p>
 			</section>
 		</main>
 	);
