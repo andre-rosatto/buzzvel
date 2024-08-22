@@ -18,7 +18,7 @@ export default function About() {
 					<p className='line-height-sm'>Later, I started programming in <span className='text-highlight'>Python</span>. I really liked the syntax, and how easy it was to learn it.</p>
 					<p className='line-height-sm'>Then, about 15 years ago, I got interested in Web Development. I started learning <span className='text-highlight'>HTML</span> and <span className='text-highlight'>CSS</span>, and shortly after that, <span className='text-highlight'>Javascript</span>. Although I missed Python's syntax, nothing compared to the reach HTML, CSS, and Javascript had. I could write a program, and it would run anywhere with a browser. That was absolutely fantastic!</p>
 					<p className='line-height-sm'>I have kept honing my skills, and I have learned about other tools and technologies, such as <span className='text-highlight'>React</span>, <span className='text-highlight'>Angular</span>, <span className='text-highlight'>PHP</span>, <span className='text-highlight'>MySQL</span>, to mention a few.</p>
-					<section className='carousel-wrapper pad-left-md'>
+					<section className='carousel-wrapper'>
 						<Carousel
 							gap={10}
 							itemWidth={300}

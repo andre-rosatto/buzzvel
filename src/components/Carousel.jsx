@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import '../css/Carousel.css';
 
-export default function Carousel({ children, itemWidth, gap, previousButton, nextButton, pip }) {
+export default function Carousel({ children = [], itemWidth, gap, previousButton, nextButton, pip }) {
 	const [position, setPosition] = useState(0);
 	const [isSwipping, setIsSwipping] = useState(false);
 	const [lastX, setLastX] = useState(0);
