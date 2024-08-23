@@ -59,6 +59,10 @@ a {
 	padding: 10px;
 }
 
+.pad-md {
+	padding: 25px;
+}
+
 .pad-lg {
 	padding: 50px;
 }

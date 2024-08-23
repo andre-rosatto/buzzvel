@@ -1,6 +1,7 @@
 /* carousel config */
 .Projects .carousel-wrapper {
-	height: 340px;
+	height: 800px;
+	width: 800px;
 }
 
 .Projects .carousel-wrapper .previousButton,
@@ -11,7 +12,7 @@
 	background-color: var(--bg-color-secondary);
 	border: 1px solid var(--text-color);
 	border-radius: 64px;
-	top: 110px;
+	top: 300px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 21px;
@@ -47,21 +48,19 @@
 
 .Projects .carousel-card {
 	display: block;
-	width: 300px;
-	height: 340px;
+	width: 800px;
 	border-radius: 10px;
 	background-color: var(--bg-color-secondary);
 	box-sizing: border-box;
 }
 
-.Projects .carousel-card-img {
-	height: 180px;
-}
-
 .Projects .carousel-card-title {
-	font-size: 1.1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.75rem;
 }
 
-.Projects .carousel-card-text {
-	text-align: center;
+.Projects .carousel-card-category {
+	font-size: 1rem;
 }
