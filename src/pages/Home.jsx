@@ -7,7 +7,7 @@ export default function Home() {
 	return (
 		<>
 			<Navbar index={0} />
-			<main className='Landing container pad-lg col gap-lg'>
+			<main className='Home container pad-lg col gap-lg'>
 				<BlockFade
 					index={0}
 				>
