@@ -67,6 +67,10 @@ a {
 	padding: 50px;
 }
 
+.pad-left-sm {
+	padding-left: 15px;
+}
+
 .pad-left-md {
 	padding-left: 30px;
 }

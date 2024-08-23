@@ -19,6 +19,14 @@ export default function Home() {
 						<p className='line-height-sm'>My names is <span className='text-highlight'>André Rosatto</span>, and here you can learn a bit about me.</p>
 						<p className='line-height-sm'>My first contact with computer programming happened when I was about 10 years old, and my father bought our first computer &ndash; an MSX Hotbit HB-8000.</p>
 						<p className='line-height-sm'>Ever since, programming and web development have become more than just a job or a hobby for me &ndash; it has turned into a passion! For me, there is nothing more rewarding than bringing an abstract idea into life. Seeing on a screen what only existed in my mind feels like a real accomplishment.</p>
+						<a className='row gap-sm center pad-left-sm personal-link' href='https://github.com/andre-rosatto' target='_blank'>
+							<img className='link-icon' src="./assets/img/github_icon.svg" alt="André Rosatto's GitHub" />
+							<span className='text-highlight'>Check out my GitHub.</span>
+						</a>
+						<a className='row gap-sm center pad-left-sm personal-link' href='https://www.linkedin.com/in/andre-rosatto/' target='_blank'>
+							<img className='link-icon' src="./assets/img/linkedin_icon.svg" alt="André Rosatto's LinkedIn" />
+							<span className='text-highlight'>I am also on LinkedIn.</span>
+						</a>
 					</div>
 				</BlockFade>
 

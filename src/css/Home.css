@@ -1,3 +1,24 @@
+.Home .personal-link {
+	transition: all 1s;
+	transition-timing-function: ease-in-out;
+	width: fit-content;
+}
+
+.Home .personal-link:hover {
+	transform: translateX(5%);
+}
+
+.Home .link-icon {
+	width: 25px;
+	transition: all 1s;
+	transition-timing-function: ease-in-out;
+	transform-origin: center;
+}
+
+.Home .personal-link:hover .link-icon {
+	transform: scale(1.5);
+}
+
 .Home .profile-pic {
 	border-radius: 100px;
 	height: 200px;
