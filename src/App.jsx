@@ -8,6 +8,7 @@ import './App.css';
 
 const router = createBrowserRouter([
 	{ path: '/', element: <Home />, errorElement: <Error /> },
+	{ path: '/home', element: <Home /> },
 	{ path: '/about', element: <About /> },
 	{ path: '/projects', element: <Projects /> },
 	{ path: '/career', element: <Career /> },
