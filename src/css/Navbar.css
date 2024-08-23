@@ -2,15 +2,37 @@
 	background-color: var(--bg-color-secondary);
 	height: 75px;
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
 	position: sticky;
 	top: 0;
 	z-index: 2;
+	box-sizing: border-box;
+}
+
+.Navbar .menu {
+	background-color: var(--bg-color-secondary);
+	background-image: url('../assets/img/menu_icon.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+	width: 50px;
+	height: 50px;
+	display: none;
+	cursor: pointer;
+	transition: all 1s;
+	transform-origin: center;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.Navbar .menu:hover {
+	transform: scale(1.2);
 }
 
 .Navbar ul {
 	display: flex;
+	flex-direction: row;
 	gap: 75px;
 }
 
@@ -32,4 +54,48 @@
 
 .Navbar ul li.selected a {
 	border-bottom: 2px solid var(--text-highlight);
+}
+
+@media screen and (max-width: 650px) {
+	.Navbar ul {
+		gap: 30px;
+	}
+}
+
+@media screen and (max-width: 470px) {
+	.Navbar {
+		background-color: transparent;
+		justify-content: end;
+		align-items: flex-start;
+		position: absolute;
+		right: 0;
+
+	}
+
+	.Navbar .menu {
+		display: block;
+	}
+
+	.Navbar ul {
+		flex-direction: column;
+		background-color: var(--bg-color-secondary);
+		overflow: hidden;
+		transition: all 0.5s;
+		transition-timing-function: ease-in-out;
+		border-bottom-left-radius: 5px;
+		box-sizing: border-box;
+		width: 0;
+		padding: 20px 0;
+	}
+
+	.Navbar ul li {
+		text-wrap: nowrap;
+	}
+
+	.Navbar.expand ul {
+		padding: 20px;
+		width: 200px;
+		transition: all 0.5s;
+		transition-timing-function: ease-in-out;
+	}
 }

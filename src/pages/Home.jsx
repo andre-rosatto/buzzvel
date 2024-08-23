@@ -34,11 +34,11 @@ export default function Home() {
 					index={1}
 				>
 					<SlidingText ghostClass='ghost'>Me, in a nutshell</SlidingText>
-					<div className="row gap-sm pad-left-md">
-						<img className='profile-pic' src="assets/img/profile_pic.webp" alt="Profile Picture" />
-						<div className='col gap-sm'>
-							<p>No one can be reduced to a few bullet points, but I will give it a try anyway:</p>
-							<ul className='pad-left-lg'>
+					<div className="col gap-sm pad-left-md">
+						<p>No one can be reduced to a few bullet points, but I will give it a try anyway:</p>
+						<div className='row gap-sm'>
+							<img className='profile-pic' src="assets/img/profile_pic.webp" alt="Profile Picture" />
+							<ul className='pad-left-md'>
 								<li className='line-height-md'>My name is André Rosatto, and I'm from Brazil</li>
 								<li className='line-height-md'>I am a <span className='text-highlight'>Front-End Developer</span></li>
 								<li className='line-height-md'>I have also worked as an English teacher</li>
@@ -47,7 +47,7 @@ export default function Home() {
 							</ul>
 						</div>
 					</div>
-					<p className='quote'>"The highest activity a human being can attain is learning for understanding,<br />because to understand is to be free."</p>
+					<p className='quote'>"The highest activity a human being can attain is learning for understanding, because to understand is to be free."</p>
 					<p className='quote-author text-highlight'>&ndash; Baruch Spinoza</p>
 				</BlockFade>
 			</main>
