@@ -8,7 +8,8 @@
 	font-size: 2rem;
 	font-weight: bold;
 	z-index: 1;
-	transition: all 0.75s ease-in-out;
+	transition: all 0.75s;
+	transition-timing-function: var(--transition-overshot);
 }
 
 .SlidingText>h2:hover {

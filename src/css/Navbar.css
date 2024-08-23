@@ -81,7 +81,7 @@
 		background-color: var(--bg-color-secondary);
 		overflow: hidden;
 		transition: all 0.5s;
-		transition-timing-function: ease-in-out;
+		transition-timing-function: var(--transition-overshot-backwards);
 		border-bottom-left-radius: 5px;
 		box-sizing: border-box;
 		width: 0;
@@ -95,7 +95,6 @@
 	.Navbar.expand ul {
 		padding: 20px;
 		width: 200px;
-		transition: all 0.5s;
-		transition-timing-function: ease-in-out;
+		transition-timing-function: var(--transition-overshot);
 	}
 }

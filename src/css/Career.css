@@ -11,7 +11,7 @@
 .Career .timeline-icon {
 	height: 100px;
 	transition: all 1s;
-	transition-timing-function: ease-in-out;
+	transition-timing-function: var(--transition-overshot);
 	transform-origin: center;
 }
 

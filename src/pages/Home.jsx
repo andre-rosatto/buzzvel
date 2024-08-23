@@ -34,19 +34,18 @@ export default function Home() {
 					index={1}
 				>
 					<SlidingText ghostClass='ghost'>Me, in a nutshell</SlidingText>
-					<div className="col gap-sm pad-left-md">
-						<p>No one can be reduced to a few bullet points, but I will give it a try anyway:</p>
-						<div className='row gap-sm'>
-							<img className='profile-pic' src="assets/img/profile_pic.webp" alt="Profile Picture" />
-							<ul className='pad-left-md'>
-								<li className='line-height-md'>My name is André Rosatto, and I'm from Brazil</li>
-								<li className='line-height-md'>I am a <span className='text-highlight'>Front-End Developer</span></li>
-								<li className='line-height-md'>I have also worked as an English teacher</li>
-								<li className='line-height-md'>I can speak <span className='text-highlight'>Portuguese</span> and <span className='text-highlight'>English</span></li>
-								<li className='line-height-md'>Learning and personal growth motivates me</li>
-							</ul>
-						</div>
+					<div className="pad-left-md personal-info gap-sm">
+						<p className='personal-intro'>No one can be reduced to a few bullet points, but I will give it a try anyway:</p>
+						<img className='profile-pic' src="assets/img/profile_pic.webp" alt="Profile Picture" />
+						<ul className='personal-bullets col gap-sm pad-left-md'>
+							<li className='line-height-sm'>My name is André Rosatto, and I'm from Brazil</li>
+							<li className='line-height-sm'>I am a <span className='text-highlight'>Front-End Developer</span></li>
+							<li className='line-height-sm'>I have also worked as an English teacher</li>
+							<li className='line-height-sm'>I can speak <span className='text-highlight'>Portuguese</span> and <span className='text-highlight'>English</span></li>
+							<li className='line-height-sm'>Learning and personal growth motivates me</li>
+						</ul>
 					</div>
+
 					<p className='quote'>"The highest activity a human being can attain is learning for understanding, because to understand is to be free."</p>
 					<p className='quote-author text-highlight'>&ndash; Baruch Spinoza</p>
 				</BlockFade>

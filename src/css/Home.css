@@ -1,6 +1,6 @@
 .Home .personal-link {
 	transition: all 1s;
-	transition-timing-function: ease-in-out;
+	transition-timing-function: var(--transition-overshot);
 	width: fit-content;
 }
 
@@ -11,7 +11,7 @@
 .Home .link-icon {
 	width: 25px;
 	transition: all 1s;
-	transition-timing-function: ease-in-out;
+	transition-timing-function: var(--transition-overshot);
 	transform-origin: center;
 }
 
@@ -19,9 +19,28 @@
 	transform: scale(1.5);
 }
 
+.Home .personal-info {
+	display: grid;
+	grid-template-areas:
+		'intro intro intro'
+		'pic bullets bullets';
+}
+
+.Home .personal-intro {
+	grid-area: intro;
+}
+
 .Home .profile-pic {
 	border-radius: 100px;
 	height: 200px;
+	grid-area: pic;
+}
+
+.Home .personal-bullets {
+	grid-area: bullets;
+	margin-left: 30px;
+	justify-content: center;
+	margin-left: 0;
 }
 
 .Home .quote {
@@ -40,6 +59,15 @@
 @media screen and (max-width: 700px) {
 	.Home .profile-pic {
 		height: 125px;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	.Home .personal-info {
+		grid-template-areas:
+			'pic intro intro'
+			'bullets bullets bullets';
+		align-items: center;
 	}
 }
 
