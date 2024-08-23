@@ -43,6 +43,10 @@ main {
 	gap: 15px;
 }
 
+.gap-md {
+	gap: 30px;
+}
+
 .gap-lg {
 	gap: 50px;
 }
@@ -71,8 +75,16 @@ main {
 	line-height: 1.5rem;
 }
 
+.line-height-lg {
+	line-height: 2rem;
+}
+
 .text-highlight {
 	color: var(--text-highlight);
+}
+
+.bold {
+	font-weight: bold;
 }
 
 .ghost {

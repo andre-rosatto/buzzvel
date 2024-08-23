@@ -1,0 +1,31 @@
+.Career .timeline .timeline-title {
+	transition: all 1s;
+	transition-delay: 0.5s;
+	transform-origin: center;
+}
+
+.Career .timeline-item:hover .timeline-title {
+	transform: translateX(5%);
+}
+
+.Career .timeline-icon {
+	height: 100px;
+	transition: all 1s;
+	transition-timing-function: ease-in-out;
+	transform-origin: center;
+}
+
+.Career .timeline-item:hover .timeline-icon {
+	transform: rotate(360deg) scale(1.15);
+}
+
+.Career .timeline-title {
+	font-size: 2rem;
+}
+
+.Career .timeline-block {
+	border-left: 4px solid var(--text-color);
+	margin-left: 50px;
+	font-size: 1.25rem;
+	padding-bottom: 20px;
+}
