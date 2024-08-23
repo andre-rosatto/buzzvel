@@ -3,7 +3,7 @@
 	position: relative;
 }
 
-.SlidingText h2 {
+.SlidingText>h2 {
 	position: relative;
 	font-size: 2rem;
 	font-weight: bold;
