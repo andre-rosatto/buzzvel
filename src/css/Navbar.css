@@ -25,7 +25,6 @@
 }
 
 .Navbar ul li a {
-	text-decoration: none;
 	color: var(--text-color);
 	padding: 10px;
 	box-sizing: border-box;
