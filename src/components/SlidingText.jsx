@@ -11,7 +11,7 @@ export default function SlidingText({ children, ghostClass }) {
 		});
 		setViewportY(ghost.current ? ghost.current.getBoundingClientRect().top : window.innerHeight);
 		return () => window.removeEventListener('scroll', onScroll);
-	});
+	}, []);
 
 	const getGhostStyle = () => {
 		const y = Math.min(window.innerHeight, Math.max(viewportY + 100, 1));

@@ -24,12 +24,42 @@ export default function About() {
 						<section className='carousel-wrapper'>
 							<Carousel
 								gap={10}
-								itemWidth={300}
-								previousButton={<button className='previousButton'></button>}
-								nextButton={<button className='nextButton'></button>}
-								pip={<div className='pip'></div>}
+								step={300}
+								previousButtonClass='previousButton'
+								previousButtonDisabledClass='carousel-button-disabled'
+								nextButtonClass='nextButton'
+								nextButtonDisabledClass='carousel-button-disabled'
+								pipClass='pip'
+								pipCurrentClass='current-pip'
 							>
-								<div className='carousel-card col gap-sm center pad-sm'>
+								<ul className='row gap-sm'>
+									<li className='carousel-card col gap-sm center pad-sm'>
+										<img className='carousel-card-img' src="./assets/img/fe_development_icon.svg" alt="Front-End Development" />
+										<h3 className="carousel-card-title">Front-End Development</h3>
+										<p className="carousel-card-text line-height-sm">Front-End Development is my passion. I am particularly experienced with Javascript, Typescript, HTML5, and CSS3.</p>
+									</li>
+									<li className='carousel-card col gap-sm center pad-sm'>
+										<img className='carousel-card-img' src="./assets/img/frameworks_icon.svg" alt="Frameworks" />
+										<h3 className="carousel-card-title">Frameworks</h3>
+										<p className="carousel-card-text line-height-sm">I am also experienced with several development tools and frameworks, such as GitHub, React, Angular, and Laravel.</p>
+									</li>
+									<li className='carousel-card col gap-sm center pad-sm'>
+										<img className='carousel-card-img' src="./assets/img/languages_icon.svg" alt="Programming Languages" />
+										<h3 className="carousel-card-title">Programming Languages</h3>
+										<p className="carousel-card-text line-height-sm">I have used and experimented with a wealth of programming languages, such as C#, Python, and PHP.</p>
+									</li>
+									<li className='carousel-card col gap-sm center pad-sm'>
+										<img className='carousel-card-img' src="./assets/img/skills_icon.svg" alt="Skills" />
+										<h3 className="carousel-card-title">Skills</h3>
+										<p className="carousel-card-text line-height-sm">I can proficiently use several design tools such as Photoshop, Illustrator, Figma, and similar ones.</p>
+									</li>
+									<li className='carousel-card col gap-sm center pad-sm'>
+										<img className='carousel-card-img' src="./assets/img/communication_icon.svg" alt="Communication" />
+										<h3 className="carousel-card-title">Communication</h3>
+										<p className="carousel-card-text line-height-sm">Working as an English teacher has helped me improve my English, but it has also taught me to better communicate and express myself.</p>
+									</li>
+								</ul>
+								{/* <div className='carousel-card col gap-sm center pad-sm'>
 									<img className='carousel-card-img' src="./assets/img/fe_development_icon.svg" alt="Front-End Development" />
 									<h3 className="carousel-card-title">Front-End Development</h3>
 									<p className="carousel-card-text line-height-sm">Front-End Development is my passion. I am particularly experienced with Javascript, Typescript, HTML5, and CSS3.</p>
@@ -53,7 +83,7 @@ export default function About() {
 									<img className='carousel-card-img' src="./assets/img/communication_icon.svg" alt="Communication" />
 									<h3 className="carousel-card-title">Communication</h3>
 									<p className="carousel-card-text line-height-sm">Working as an English teacher has helped me improve my English, but it has also taught me to better communicate and express myself.</p>
-								</div>
+								</div> */}
 							</Carousel>
 						</section>
 					</div>

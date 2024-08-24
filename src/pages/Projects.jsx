@@ -25,7 +25,7 @@ export default function Projects() {
 								pip={<div className='pip'></div>}
 							>
 								{/* Viplant */}
-								<a className='carousel-card' href='https://buzzvel.com/portfolio/viplant' target='_blank' title='Viplant' >
+								<a className='carousel-card' href='https://buzzvel.com/portfolio/viplant' target='_blank' rel="noreferrer" title='Viplant' >
 									<div className='pad-sm col'>
 										<img src='../assets/img/viplant.webp' alt='Viplant' />
 										<div className='col gap-sm pad-md'>
@@ -35,7 +35,7 @@ export default function Projects() {
 									</div>
 								</a>
 								{/* Traquinices */}
-								<a className='carousel-card' href='https://buzzvel.com/portfolio/traquinices' target='_blank' title='Traquinices' >
+								<a className='carousel-card' href='https://buzzvel.com/portfolio/traquinices' target='_blank' rel="noreferrer" title='Traquinices' >
 									<div className='pad-sm col'>
 										<img src='../assets/img/traquinices.webp' alt='Traquinices' />
 										<div className='col gap-sm pad-md'>
@@ -45,7 +45,7 @@ export default function Projects() {
 									</div>
 								</a>
 								{/* DBS */}
-								<a className='carousel-card' href='https://buzzvel.com/portfolio/dbs' target='_blank' title='DBS' >
+								<a className='carousel-card' href='https://buzzvel.com/portfolio/dbs' target='_blank' rel="noreferrer" title='DBS' >
 									<div className='pad-sm col'>
 										<img src='../assets/img/dbs.webp' alt='DBS' />
 										<div className='col gap-sm pad-md'>
@@ -55,7 +55,7 @@ export default function Projects() {
 									</div>
 								</a>
 								{/* Miss Can */}
-								<a className='carousel-card' href='https://buzzvel.com/portfolio/miss-can' target='_blank' title='Miss Can' >
+								<a className='carousel-card' href='https://buzzvel.com/portfolio/miss-can' target='_blank' rel="noreferrer" title='Miss Can' >
 									<div className='pad-sm col'>
 										<img src='../assets/img/miss_can.webp' alt='Miss Can' />
 										<div className='col gap-sm pad-md'>
@@ -65,7 +65,7 @@ export default function Projects() {
 									</div>
 								</a>
 								{/* ThinkFeridas */}
-								<a className='carousel-card' href='https://buzzvel.com/portfolio/thinkferidas' target='_blank' title='ThinkFeridas' >
+								<a className='carousel-card' href='https://buzzvel.com/portfolio/thinkferidas' target='_blank' rel="noreferrer" title='ThinkFeridas' >
 									<div className='pad-sm col'>
 										<img src='../assets/img/thinkferidas.webp' alt='ThinkFeridas' />
 										<div className='col gap-sm pad-md'>
@@ -75,7 +75,7 @@ export default function Projects() {
 									</div>
 								</a>
 								{/* Vigias da Arriba */}
-								<a className='carousel-card' href='https://buzzvel.com/portfolio/vigias-da-arriba' target='_blank' title='Vigias da Arriba' >
+								<a className='carousel-card' href='https://buzzvel.com/portfolio/vigias-da-arriba' target='_blank' rel="noreferrer" title='Vigias da Arriba' >
 									<div className='pad-sm col'>
 										<img src='../assets/img/vigias_da_arriba.webp' alt='Vigias da Arriba' />
 										<div className='col gap-sm pad-md'>
@@ -85,7 +85,7 @@ export default function Projects() {
 									</div>
 								</a>
 								{/* Portugual Advanced Club */}
-								<a className='carousel-card' href='https://buzzvel.com/portfolio/portugal-advanced-health' target='_blank' title='Portugual Advanced Health' >
+								<a className='carousel-card' href='https://buzzvel.com/portfolio/portugal-advanced-health' target='_blank' rel="noreferrer" title='Portugual Advanced Health' >
 									<div className='pad-sm col'>
 										<img src='../assets/img/portugal_advanced_health.webp' alt='Portugual Advanced Health' />
 										<div className='col gap-sm pad-md'>
@@ -95,7 +95,7 @@ export default function Projects() {
 									</div>
 								</a>
 								{/* Hotspotty */}
-								<a className='carousel-card' href='https://buzzvel.com/portfolio/hotspotty' target='_blank' title='Hotspotty' >
+								<a className='carousel-card' href='https://buzzvel.com/portfolio/hotspotty' target='_blank' rel="noreferrer" title='Hotspotty' >
 									<div className='pad-sm col'>
 										<img src='../assets/img/hotspotty.webp' alt='Hotspotty' />
 										<div className='col gap-sm pad-md'>

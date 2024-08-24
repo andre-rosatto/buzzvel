@@ -8,8 +8,8 @@
 	height: 340px;
 }
 
-.About .previousButton,
-.About .nextButton {
+.About .carousel-wrapper .previousButton,
+.About .carousel-wrapper .nextButton {
 	position: absolute;
 	width: 64px;
 	height: 64px;
@@ -24,22 +24,17 @@
 	padding: 0;
 }
 
-.About .previousButton {
+.About .carousel-wrapper .previousButton {
 	background-image: url('../assets/img/icon-arrow-left.svg');
 	left: -32px;
 }
 
-.About .nextButton {
+.About .carousel-wrapper .nextButton {
 	background-image: url('../assets/img/icon-arrow-right.svg');
 	right: -32px;
 }
 
-.About .carousel-button-disabled {
-	pointer-events: none;
-	opacity: 0.5;
-}
-
-.About .pip {
+.About .carousel-wrapper .pip {
 	width: 10px;
 	height: 10px;
 	background-color: var(--bg-color-secondary);
@@ -49,12 +44,12 @@
 	margin-top: 10px;
 }
 
-.About .current-pip {
+.About .carousel-wrapper .Carousel__current-pip .pip {
 	background-color: var(--text-highlight);
-	pointer-events: none;
 }
 
 /* carousel cards */
+
 .About .carousel-card {
 	width: 300px;
 	height: 340px;

@@ -19,11 +19,11 @@ export default function Home() {
 						<p className='line-height-sm'>My names is <span className='text-highlight'>André Rosatto</span>, and here you can learn a bit about me.</p>
 						<p className='line-height-sm'>My first contact with computer programming happened when I was about 10 years old, and my father bought our first computer &ndash; an MSX Hotbit HB-8000.</p>
 						<p className='line-height-sm'>Ever since, programming and web development have become more than just a job or a hobby for me &ndash; it has turned into a passion! For me, there is nothing more rewarding than bringing an abstract idea into life. Seeing on a screen what only existed in my mind feels like a real accomplishment.</p>
-						<a className='row gap-sm center pad-left-sm personal-link' href='https://github.com/andre-rosatto' target='_blank'>
+						<a className='row gap-sm center pad-left-sm personal-link' href='https://github.com/andre-rosatto' target='_blank' rel="noreferrer">
 							<img className='link-icon' src="./assets/img/github_icon.svg" alt="André Rosatto's GitHub" />
 							<span className='text-highlight'>Check out my GitHub.</span>
 						</a>
-						<a className='row gap-sm center pad-left-sm personal-link' href='https://www.linkedin.com/in/andre-rosatto/' target='_blank'>
+						<a className='row gap-sm center pad-left-sm personal-link' href='https://www.linkedin.com/in/andre-rosatto/' target='_blank' rel="noreferrer">
 							<img className='link-icon' src="./assets/img/linkedin_icon.svg" alt="André Rosatto's LinkedIn" />
 							<span className='text-highlight'>I am also on LinkedIn.</span>
 						</a>
@@ -36,7 +36,7 @@ export default function Home() {
 					<SlidingText ghostClass='ghost'>Me, in a nutshell</SlidingText>
 					<div className="pad-left-md personal-info gap-sm">
 						<p className='personal-intro'>No one can be reduced to a few bullet points, but I will give it a try anyway:</p>
-						<img className='profile-pic' src="assets/img/profile_pic.webp" alt="Profile Picture" />
+						<img className='profile-pic' src="assets/img/profile_pic.webp" alt="Profile" />
 						<ul className='personal-bullets col gap-sm pad-left-md'>
 							<li className='line-height-sm'>My name is André Rosatto, and I'm from Brazil</li>
 							<li className='line-height-sm'>I am a <span className='text-highlight'>Front-End Developer</span></li>
