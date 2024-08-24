@@ -8,8 +8,8 @@
 	height: 340px;
 }
 
-.About .previousButton,
-.About .nextButton {
+.About .previous-button,
+.About .next-button {
 	position: absolute;
 	width: 64px;
 	height: 64px;
@@ -21,15 +21,22 @@
 	background-position: center;
 	background-size: 21px;
 	cursor: pointer;
-	padding: 0;
+	transition: transform .5s;
+	transform-origin: center;
+	transition-timing-function: var(--transition-overshot);
 }
 
-.About .previousButton {
+.Projects .previous-button:hover,
+.Projects .next-button:hover {
+	transform: scale(1.2);
+}
+
+.About .previous-button {
 	background-image: url('../assets/img/icon-arrow-left.svg');
 	left: -32px;
 }
 
-.About .nextButton {
+.About .next-button {
 	background-image: url('../assets/img/icon-arrow-right.svg');
 	right: -32px;
 }
@@ -83,17 +90,17 @@
 		height: 300px;
 	}
 
-	.About .previousButton,
-	.About .nextButton {
+	.About .previous-button,
+	.About .next-button {
 		width: 48px;
 		height: 48px;
 	}
 
-	.About .previousButton {
+	.About .previous-button {
 		left: -25px;
 	}
 
-	.About .nextButton {
+	.About .next-button {
 		right: -25px;
 	}
 

@@ -1,36 +1,48 @@
 /* carousel config */
 .Projects .carousel-wrapper {
-	height: 800px;
+	height: 690px;
 	width: 800px;
 }
 
-.Projects .carousel-wrapper .previousButton,
-.Projects .carousel-wrapper .nextButton {
+.Projects .previous-button,
+.Projects .next-button {
 	position: absolute;
 	width: 64px;
 	height: 64px;
 	background-color: var(--bg-color-secondary);
 	border: 1px solid var(--text-color);
 	border-radius: 64px;
-	top: 300px;
+	top: 225px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 21px;
 	cursor: pointer;
-	padding: 0;
+	transition: transform .5s;
+	transform-origin: center;
+	transition-timing-function: var(--transition-overshot);
 }
 
-.Projects .carousel-wrapper .previousButton {
+.Projects .previous-button:hover,
+.Projects .next-button:hover {
+	transform: scale(1.2);
+}
+
+.Projects .previous-button {
 	background-image: url('../assets/img/icon-arrow-left.svg');
 	left: -32px;
 }
 
-.Projects .carousel-wrapper .nextButton {
+.Projects .next-button {
 	background-image: url('../assets/img/icon-arrow-right.svg');
 	right: -32px;
 }
 
-.Projects .carousel-wrapper .pip {
+.Projects .carousel-button-disabled {
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+.Projects .pip {
 	width: 10px;
 	height: 10px;
 	background-color: var(--bg-color-secondary);
@@ -40,18 +52,35 @@
 	margin-top: 10px;
 }
 
-.Projects .carousel-wrapper .Carousel__current-pip .pip {
+.Projects .pip.current {
 	background-color: var(--text-highlight);
+	pointer-events: none;
 }
 
 /* carousel cards */
-
 .Projects .carousel-card {
 	display: block;
 	width: 800px;
-	border-radius: 10px;
-	background-color: var(--bg-color-secondary);
+	background-color: var(--bg-color);
 	box-sizing: border-box;
+}
+
+.Projects .carousel-card>a {
+	height: 690px;
+}
+
+.Projects .carousel-card-img {
+	height: 500px;
+	object-fit: contain;
+}
+
+.Projects .carousel-card-text {
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	background-color: var(--bg-color-secondary);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 .Projects .carousel-card-title {

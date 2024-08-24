@@ -26,9 +26,9 @@ export default function About() {
 						<Carousel
 							gap={10}
 							step={window.innerWidth > 470 ? 310 : 210}
-							previousButtonClass='previousButton'
+							previousButtonClass='previous-button'
 							previousButtonDisabledClass='carousel-button-disabled'
-							nextButtonClass='nextButton'
+							nextButtonClass='next-button'
 							nextButtonDisabledClass='carousel-button-disabled'
 							pipClass='pip'
 							pipCurrentClass='current'
