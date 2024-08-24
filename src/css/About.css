@@ -61,6 +61,7 @@
 	border-radius: 10px;
 	background-color: var(--bg-color-secondary);
 	box-sizing: border-box;
+	text-align: center;
 }
 
 .About .carousel-card-img {
@@ -73,4 +74,36 @@
 
 .About .carousel-card-text {
 	text-align: center;
+}
+
+@media screen and (max-width: 470px) {
+
+	/* carousel config */
+	.About .carousel-wrapper {
+		height: 300px;
+	}
+
+	.About .previousButton,
+	.About .nextButton {
+		width: 48px;
+		height: 48px;
+	}
+
+	.About .previousButton {
+		left: -25px;
+	}
+
+	.About .nextButton {
+		right: -25px;
+	}
+
+	/* carousel cards */
+	.About .carousel-card {
+		width: 200px;
+		height: 300px;
+	}
+
+	.About .carousel-card-img {
+		height: 110px;
+	}
 }
