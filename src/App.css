@@ -112,7 +112,8 @@ a {
 
 @media screen and (max-width: 470px) {
 	.App {
-		font-size: 14px;
+		/* font-size: 14px; */
+		font-size: 0.85rem;
 	}
 
 	.container {

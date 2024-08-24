@@ -10,7 +10,7 @@ export default function Career() {
 			<main className='Career container pad-lg col gap-lg'>
 				<BlockFade index={0}>
 					<SlidingText ghostClass='ghost'>
-						Envisioning my career at Buzzvel
+						My career at Buzzvel
 					</SlidingText>
 					<section className='col pad-left-md'>
 						<div className="timeline col gap-md">

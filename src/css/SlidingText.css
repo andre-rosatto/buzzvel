@@ -24,3 +24,14 @@
 	z-index: 0;
 	text-wrap: nowrap;
 }
+
+@media screen and (max-width: 470px) {
+	.SlidingText>h2 {
+		font-size: 1.75rem;
+	}
+
+	.SlidingText>span {
+		font-size: 2.5rem;
+		top: -0.5rem;
+	}
+}
