@@ -49,7 +49,7 @@
 	margin-top: 10px;
 }
 
-.About .current-pip {
+.About .pip.current {
 	background-color: var(--text-highlight);
 	pointer-events: none;
 }

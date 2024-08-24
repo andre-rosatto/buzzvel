@@ -30,7 +30,7 @@ export default function About() {
 								nextButtonClass='nextButton'
 								nextButtonDisabledClass='carousel-button-disabled'
 								pipClass='pip'
-								pipCurrentClass='current-pip'
+								pipCurrentClass='current'
 							>
 								<ul className='row gap-sm'>
 									<li className='carousel-card col gap-sm center pad-sm'>
