@@ -22,7 +22,7 @@ export default function Career() {
 									</div>
 									<div className="col timeline-block pad-left-md gap-sm">
 										<p className='line-height-md'><span className="text-highlight bold">Onboarding</span>: I am eager to get familiar with Buzzvel's work philosophy</p>
-										<p className='line-height-md'><span className="text-highlight bold">Mentorship</span>: There is so much a senior developer can teach me</p>
+										<p className='line-height-md'><span className="text-highlight bold">Mentorship</span>: There is so much I can learn from a senior developer</p>
 										<p className='line-height-md'><span className="text-highlight bold">Initial contributions</span>: I want to learn Buzzvel's coding standards and be part of the team</p>
 									</div>
 								</div>
@@ -35,9 +35,9 @@ export default function Career() {
 										<h3 className='timeline-title bold pad-left-md'>Year 2-3: Growth and increased responsibility</h3>
 									</div>
 									<div className="col timeline-block pad-left-md gap-sm">
-										<p className='line-height-md'><span className='text-highlight bold'>Leadership role</span>: I may have enough experience to lead a team and become a senior developer</p>
-										<p className='line-height-md'><span className='text-highlight bold'>Innovation</span>: I want to contribute to the future of Buzzvel by helping with the strategic direction</p>
-										<p className='line-height-md'><span className='text-highlight bold'>Continuous learning</span>: Not only will keeping up-to-date with new technologies, tools, and trends beneficial for myself, but also instrumental for Buzzvel's future</p>
+										<p className='line-height-md'><span className='text-highlight bold'>Project ownership</span>: I may have enough experience to lead a small to medium-sized project</p>
+										<p className='line-height-md'><span className='text-highlight bold'>Skill development</span>: I want to master advanced concepts and learn new relevant ones</p>
+										<p className='line-height-md'><span className='text-highlight bold'>Mentorship</span>: Hopefully, I can start mentoring junior developers</p>
 									</div>
 								</div>
 							</BlockFade>
@@ -51,7 +51,7 @@ export default function Career() {
 									<div className="col timeline-block pad-left-md gap-sm">
 										<p className='line-height-md'><span className='text-highlight bold'>Leadership role</span>: I may have enough experience to lead a team and become a senior developer</p>
 										<p className='line-height-md'><span className='text-highlight bold'>Innovation</span>: I want to contribute to the future of Buzzvel by helping with the strategic direction</p>
-										<p className='line-height-md'><span className='text-highlight bold'>Continuous learning</span>: Not only will keeping up-to-date with new technologies, tools, and trends beneficial for myself, but also instrumental for Buzzvel's future</p>
+										<p className='line-height-md'><span className='text-highlight bold'>Continuous learning</span>: Not only will keeping up-to-date with new technologies, tools, and trends be beneficial for myself, but also instrumental for Buzzvel's future</p>
 									</div>
 								</div>
 							</BlockFade>
