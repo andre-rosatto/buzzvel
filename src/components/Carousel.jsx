@@ -23,9 +23,9 @@ export default function Carousel({
 	useEffect(() => {
 		const handleResize = window.addEventListener('resize', () => {
 			setPosition(0);
-			setPipsCount(Math.round((childrenWrapper.current?.offsetWidth ?? 1) / (contentWrapper.current?.offsetWidth ?? 1)));
+			setPipsCount(Math.ceil((childrenWrapper.current?.offsetWidth ?? 1) / (contentWrapper.current?.offsetWidth ?? 1)));
 		});
-		setPipsCount(Math.round((childrenWrapper.current?.offsetWidth ?? 1) / (contentWrapper.current?.offsetWidth ?? 1)));
+		setPipsCount(Math.ceil((childrenWrapper.current?.offsetWidth ?? 1) / (contentWrapper.current?.offsetWidth ?? 1)));
 		return () => window.removeEventListener('resize', handleResize);
 	}, [pipsCount]);
 
@@ -67,11 +67,11 @@ export default function Carousel({
 	}
 
 	const handlePipClick = idx => {
-		const newPosition = Math.round(childrenWrapper.current.offsetWidth / pipsCount) * idx;
+		const newPosition = Math.ceil(childrenWrapper.current.offsetWidth / pipsCount) * idx;
 		setPosition(Math.max(-newPosition, getMinPosition()));
 	}
 
-	const currentPip = (contentWrapper.current && childrenWrapper.current) ? Math.round(-position / contentWrapper.current.offsetWidth) : 1;
+	const currentPip = (contentWrapper.current && childrenWrapper.current) ? Math.ceil(-position / contentWrapper.current.offsetWidth) : 1;
 
 	return (
 		<div className="Carousel">
