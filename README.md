@@ -2,6 +2,7 @@
 This is my solution to the Front-End Development technical test sent me by Buzzvel. This project was developed in August 2024 using ReactJS, Javascript, HTML, and CSS.
 
 The project uses CSS styles and animations extensively, aiming to make the user experience as pleasant as possible.
+
 Clone and install the dependencies using npm install.
 
 ## Scripts
