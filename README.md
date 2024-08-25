@@ -3,13 +3,13 @@ This is my solution to the Front-End Development technical test sent me by Buzzv
 
 The project uses CSS styles and animations extensively, aiming to make the user experience as pleasant as possible.
 
-Clone and install the dependencies using npm install.
+Clone and install the dependencies using **_npm install_**.
 
 ## Scripts
 ### npm start
 Starts the project and the local server. After compilation is finished, it can be accessed at localhost:3000.
 ### npm run build
-Builds the project for production.
+Builds the project for production. The project will be output to the **_build_** folder.
 
 
 ## Techs used
