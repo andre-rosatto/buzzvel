@@ -5,6 +5,17 @@ import Carousel from '../components/Carousel.jsx';
 import '../css/Projects.css';
 
 export default function Projects() {
+	const getStepSize = () => {
+		if (window.innerWidth >= 890) {
+			return 800;
+		} else if (window.innerWidth >= 690) {
+			return 600;
+		} else if (window.innerWidth >= 460) {
+			return 400;
+		}
+		return 250;
+	}
+
 	return (
 		<>
 			<Navbar index={2} />
@@ -18,13 +29,14 @@ export default function Projects() {
 					<div className='col gap-sm center'>
 						<section className='carousel-wrapper pad-sm'>
 							<Carousel
-								step={800}
+								step={getStepSize()}
 								previousButtonClass='previous-button'
 								previousButtonDisabledClass='carousel-button-disabled'
 								nextButtonClass='next-button'
 								nextButtonDisabledClass='carousel-button-disabled'
 								pipClass='pip'
 								pipCurrentClass='current'
+								allowSwipe={false}
 							>
 								<ul className='row'>
 									{/* Viplant */}

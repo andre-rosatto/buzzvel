@@ -1,7 +1,7 @@
 /* carousel config */
 .Projects .carousel-wrapper {
-	height: 690px;
 	width: 800px;
+	height: 690px;
 }
 
 .Projects .previous-button,
@@ -72,6 +72,13 @@
 .Projects .carousel-card-img {
 	height: 500px;
 	object-fit: contain;
+	transition: transform 1s;
+	transition-timing-function: ease-in-out;
+	z-index: 1;
+}
+
+.Projects .carousel-card>a:hover .carousel-card-img {
+	transform: scale(1.1);
 }
 
 .Projects .carousel-card-text {
@@ -81,6 +88,7 @@
 	background-color: var(--bg-color-secondary);
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
+	z-index: 2;
 }
 
 .Projects .carousel-card-title {
@@ -92,4 +100,118 @@
 
 .Projects .carousel-card-category {
 	font-size: 1rem;
+}
+
+@media screen and (max-width: 890px) {
+
+	/* carousel config */
+	.Projects .carousel-wrapper {
+		width: 600px;
+		height: 600px;
+	}
+
+	/* carousel cards */
+	.Projects .carousel-card {
+		width: 600px;
+	}
+
+	.Projects .carousel-card>a {
+		height: 600px;
+	}
+
+	.Projects .carousel-card-img {
+		height: 400px;
+	}
+
+	.Projects .carousel-card-title {
+		align-items: flex-start;
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 690px) {
+
+	/* carousel config */
+	.Projects .carousel-wrapper {
+		width: 400px;
+		height: 500px;
+	}
+
+	.Projects .previous-button,
+	.Projects .next-button {
+		width: 48px;
+		height: 48px;
+		top: 125px;
+	}
+
+	.Projects .previous-button {
+		background-image: url('../assets/img/icon-arrow-left.svg');
+		left: -24px;
+	}
+
+	.Projects .next-button {
+		background-image: url('../assets/img/icon-arrow-right.svg');
+		right: -24px;
+	}
+
+	/* carousel cards */
+	.Projects .carousel-card {
+		width: 400px;
+	}
+
+	.Projects .carousel-card>a {
+		height: 500px;
+	}
+
+	.Projects .carousel-card-img {
+		height: 275px;
+	}
+
+	.Projects .carousel-card-title {
+		font-size: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 460px) {
+
+	/* carousel config */
+	.Projects .carousel-wrapper {
+		width: 250px;
+		height: 450px;
+	}
+
+	.Projects .previous-button,
+	.Projects .next-button {
+		width: 32px;
+		height: 32px;
+		top: 70px;
+		background-size: 15px;
+	}
+
+	.Projects .previous-button {
+		background-image: url('../assets/img/icon-arrow-left.svg');
+		left: -16px;
+	}
+
+	.Projects .next-button {
+		background-image: url('../assets/img/icon-arrow-right.svg');
+		right: -16px;
+	}
+
+	/* carousel cards */
+	.Projects .carousel-card {
+		width: 250px;
+	}
+
+	.Projects .carousel-card>a {
+		height: 450px;
+	}
+
+	.Projects .carousel-card-img {
+		height: 170px;
+	}
+
+	.Projects .carousel-card-text {
+		padding: 15px;
+	}
 }

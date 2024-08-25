@@ -10,7 +10,8 @@ export default function Carousel({
 	nextButtonDisabledClass = '',
 	pipClass = '',
 	pipCurrentClass = '',
-	pipGap = 10
+	pipGap = 10,
+	allowSwipe = true
 }) {
 	const [position, setPosition] = useState(0);
 	const [isSwipping, setIsSwipping] = useState(false);
@@ -39,6 +40,7 @@ export default function Carousel({
 	};
 
 	const startSwipe = e => {
+		if (!allowSwipe) return;
 		setIsSwipping(true);
 		setLastX(e.touches[0].clientX);
 	}
