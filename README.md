@@ -8,7 +8,7 @@ Clone and install the dependencies using npm install.
 ## Scripts
 ### npm start
 Starts the project and the local server. After compilation is finished, it can be accessed at localhost:3000.
-###npm run build
+### npm run build
 Builds the project for production.
 
 
