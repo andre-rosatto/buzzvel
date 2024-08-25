@@ -24,7 +24,7 @@ export default function Projects() {
 					index={0}
 				>
 					<SlidingText ghostClass='ghost'>
-						Buzzvel Key Projects
+						Buzzvel Projects
 					</SlidingText>
 					<div className='col gap-sm center'>
 						<section className='carousel-wrapper pad-sm'>
