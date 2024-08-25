@@ -5,6 +5,8 @@ The project uses CSS styles and animations extensively, aiming to make it visual
 
 Clone and install the dependencies using **_npm install_**.
 
+[You can see it in its full glory here: ](https://htmlmarkdown.com/syntax/markdown-links/)
+
 ## Scripts
 ### npm start
 Starts the project and the local server. After compilation is finished, it can be accessed at **_localhost:3000_**.
