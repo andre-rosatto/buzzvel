@@ -1,3 +1,17 @@
+@keyframes ghost-animation {
+	from {
+		opacity: 0;
+		filter: blur(6px);
+		transform: translateX(300%);
+	}
+
+	to {
+		opacity: 0.75;
+		filter: blur(3px);
+		transform: translateX(1%);
+	}
+}
+
 .SlidingText {
 	margin-bottom: 30px;
 	position: relative;
@@ -23,6 +37,9 @@
 	top: -0.75rem;
 	z-index: 0;
 	text-wrap: nowrap;
+	animation: ghost-animation 3s;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
 }
 
 @media screen and (max-width: 470px) {
