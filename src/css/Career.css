@@ -27,6 +27,7 @@
 	border-left: 4px solid var(--text-color);
 	margin-left: 50px;
 	font-size: 1.25rem;
+	padding-top: 10px;
 	padding-bottom: 20px;
 }
 
