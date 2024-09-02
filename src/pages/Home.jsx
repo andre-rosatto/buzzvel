@@ -42,7 +42,7 @@ export default function Home() {
 							<li className='line-height-sm'>I am a <span className='text-highlight'>Front-End Developer</span></li>
 							<li className='line-height-sm'>I have also worked as an English teacher</li>
 							<li className='line-height-sm'>I can speak <span className='text-highlight'>Portuguese</span> and <span className='text-highlight'>English</span> fluently</li>
-							<li className='line-height-sm'>Learning and personal growth motivates me</li>
+							<li className='line-height-sm'>Learning and personal growth motivate me</li>
 						</ul>
 					</div>
 
